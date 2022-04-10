@@ -185,3 +185,57 @@ a {
 .pushable:focus:not(:focus-visible) {
   outline: none;
 }
+
+
+.myClassPC {
+  font-size: min(25px, 15vw);
+  opacity: 1;
+  position: relative;
+  top: 150px; // IMPORTANT
+  left: 40px;
+  text-shadow: rgb(21 17 24 / 50%) 1px 0px 30px, rgb(21 17 24 / 50%) 0px 6px 15px, rgb(21 17 24 / 50%) 2px 1px 2px; 
+ //textShadow: rgb(21 17 24 / 50%) 0px 0px 30px, rgb(21 17 24 / 50%) 0px 5px 15px, rgb(21 17 24 / 50%) 0px 1px 2px;
+  color: hsl(0deg,0%,100%);
+  line-height: 1.45;
+  box-sizing: border-box;
+ 
+  margin-left: 8.35em; // UPDATE MARGIN LEFT AND RIGHT SHOULD BE LESS FOR MOBILE 
+  margin-right: 11.0em;
+  // marginBlockStart: 0.83em;
+  // marginBlockEnd: 0.83em;
+  // marginInlineStart: 0px;
+  // marginInlineEnd: 0px;
+
+  z-index: 2;
+  font-weight: 520;
+
+ // textShadow: "1px 2px #000000",
+//  textShadow: "rgb(21 17 24 / 30%) 1px 0px 20px, rgb(21 17 24 / 50%) 0px 6px 7px, rgb(21 17 24 / 50%) 2px 1px 2px", 
+}
+
+
+.myClassMobile {
+  font-size: min(25px, 15vw);
+  opacity: 1;
+  position: relative;
+  top: 150px; // IMPORTANT
+  left: 40px;
+  text-shadow: rgb(21 17 24 / 50%) 1px 0px 30px, rgb(21 17 24 / 50%) 0px 6px 15px, rgb(21 17 24 / 50%) 2px 1px 2px; 
+ //textShadow: rgb(21 17 24 / 50%) 0px 0px 30px, rgb(21 17 24 / 50%) 0px 5px 15px, rgb(21 17 24 / 50%) 0px 1px 2px;
+  color: hsl(0deg,0%,100%);
+  line-height: 1.45;
+  box-sizing: border-box;
+ 
+  margin-left: 2.00em; // UPDATE MARGIN LEFT AND RIGHT SHOULD BE LESS FOR MOBILE 
+  margin-right: 5.75em;
+  // marginBlockStart: 0.83em;
+  // marginBlockEnd: 0.83em;
+  // marginInlineStart: 0px;
+  // marginInlineEnd: 0px;
+
+  z-index: 2;
+  font-weight: 520;
+
+ // textShadow: "1px 2px #000000",
+//  textShadow: "rgb(21 17 24 / 30%) 1px 0px 20px, rgb(21 17 24 / 50%) 0px 6px 7px, rgb(21 17 24 / 50%) 2px 1px 2px", 
+}

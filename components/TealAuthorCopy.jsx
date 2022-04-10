@@ -50,7 +50,7 @@ const TealAuthor = () => {
         lineHeight: "1.45",
         boxSizing: "border-box",
        
-        marginLeft: "8.35em",
+        marginLeft: "8.35em", // UPDATE MARGIN LEFT AND RIGHT SHOULD BE LESS FOR MOBILE 
         marginRight: "11.0em",
         // marginBlockStart: "0.83em",
         // marginBlockEnd: "0.83em",
@@ -261,7 +261,7 @@ const TealAuthor = () => {
 
 
                     {/* </div> */}
-                    <h2 style={myStyle} className="montserrat text-sm mb-8 text-center ml-8 mr-12">I am a 19 year old college graduate with a passion for computer science. I like to think outside of the box and come up with innovative solutions to complex problems. This is an Instagram worthy blog/journal… or something of the sort - you’ll see! 😋</h2>
+                    <h2  className="montserrat text-sm mb-8 text-center myClassMobile md:myClassPC">I am a 19 year old college graduate with a passion for computer science. I like to think outside of the box and come up with innovative solutions to complex problems. This is an Instagram worthy blog/journal… or something of the sort - you’ll see! 😋</h2>
 
             
                     
