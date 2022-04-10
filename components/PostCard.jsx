@@ -20,7 +20,7 @@ const PostCard = ({ post }) => {
   const getContentFragment = () => {
    // let src = post.featuredImage.url;
     let slug = post.slug;
-    let imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg lg:rounded-lg";
+    let imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg ";
     let width = "1092px";
     let height = "417px";
 
@@ -83,22 +83,22 @@ const PostCard = ({ post }) => {
         loader={grpahCMSImageLoader} src={post.previewImage.url} alt=""   height={height}
         width={width} className={imageClass} /></Link>);
       case 'blog-5':
-        imageClass = "object-top absolute object-cover shadow-xl rounded-t-lg lg:rounded-lg";
+        imageClass = "object-top absolute object-cover shadow-xl rounded-t-lg ";
         return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
           loader={grpahCMSImageLoader} src={post.featuredImage.url} alt=""   height={height}
           width={width} className={imageClass} /></Link>);
       case 'blog-6': // #6 Enchanting New Mexico
-        imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg lg:rounded-lg ";
+        imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg  ";
         return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
           loader={grpahCMSImageLoader} src={post.previewImage.url} alt=""   height={height}
           width={width} className={imageClass} /></Link>);
       case 'blog-7': // The Golden State - California
-        imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg lg:rounded-lg ";
+        imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg  ";
         return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
           loader={grpahCMSImageLoader} src={post.previewImage.url} alt=""   height={height}
           width={width} className={imageClass} /></Link>);
       case 'blog-9': // Amazon Day 1
-        imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg lg:rounded-lg ";
+        imageClass = "object-center absolute object-cover shadow-xl rounded-t-lg  ";
         return (   <Link href={`/post/${post.slug}`}><Image   unoptimized
           loader={grpahCMSImageLoader} src={post.previewImage.url} alt=""   height={height}
           width={width} className={imageClass} /></Link>);
@@ -141,7 +141,7 @@ const PostCard = ({ post }) => {
   };
 
   return ( // bg-pink-200 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8 sm:bg-red-600 md:bg-gray-600 lg:bg-yellow-300 xl:bg-green-500 2xl:bg-cyan-400 3xl:bg-indigo-600 4xl:bg-violet-800
-    <div className="bg-pink-200 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8 sm:bg-red-600 md:bg-gray-600 lg:bg-yellow-300 xl:bg-green-500 2xl:bg-cyan-400 3xl:bg-indigo-600 4xl:bg-violet-800">
+    <div className="bg-pink-200 shadow-lg rounded-lg p-0  pb-12 mb-8 sm:bg-red-600 md:bg-gray-600 lg:bg-yellow-300 xl:bg-green-500 2xl:bg-cyan-400 3xl:bg-indigo-600 4xl:bg-violet-800">
       
       {/* <div className="relative shadow-md inline-block w-full h-60 lg:h-80 mb-6">
         <Image
@@ -168,7 +168,7 @@ const PostCard = ({ post }) => {
             alt={post.author.name}
             height="30px"
             width="30px"
-            className="align-middle object-cover h-5 w-5"
+            className="align-middle object-cover h-5 w-5 "
             src={post.author.photo.url}
           />
           <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">{post.author.name}</p>
