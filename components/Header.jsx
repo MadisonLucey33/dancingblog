@@ -102,7 +102,7 @@ const myStyle4 = {
                   
                     <Link href="/" >
                     <h2 className="md:float-left lg:mr-96">
-            <span className="cursor-pointer font-bold  text-white " style={{textShadow: "1px 1px #000000", fontSize: '2.5rem', lineHeight: '2.25rem', marginRight: '0.12rem;',}}>M</span><span className="cursor-pointer font-bold text-5xl text-white " style={{textShadow: "1px 1px #000000", fontSize: '2.1rem', lineHeight: '2.25rem', marginRight: '0.22rem;',}}>adison </span>
+            <span className="cursor-pointer font-bold  text-white " style={{textShadow: "1px 1px #000000", fontSize: '2.5rem', lineHeight: '2.25rem', marginRight: '0.07rem;',}}>M</span><span className="cursor-pointer font-bold text-5xl text-white " style={{textShadow: "1px 1px #000000", fontSize: '2.1rem', lineHeight: '2.25rem', marginRight: '0.22rem;',}}>adison </span>
             <span className="cursor-pointer font-bold  text-white" style={{textShadow: "1px 1px #000000", fontSize: '2.5rem', lineHeight: '2.25rem', marginRight: '0.12rem;', }}>L</span><span className="cursor-pointer font-bold text-5xl text-white" style={{fontSize: '2.1rem', lineHeight: '2.25rem'}}>ucey's</span> 
             <span className="cursor-pointer font-normal text-5xl text-white ml-2.5 " style={{fontSize: '2.1rem', lineHeight: '2.25rem', marginLeft: '0.85rem;'}}> Blog/Diary</span>
             <div className="cursor-pointer font-bold text-md text-white mt-2 text-red-200 md:mr-0 md:ml:0 lg:-mr-8 lg:ml-0 xl:mr-0 xl:ml-0">✨ More coming soon -- spoiler Las Vegas & the Mojave Desert! ✨
