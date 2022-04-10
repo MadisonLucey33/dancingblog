@@ -48,7 +48,9 @@ const Categories = () => {
    
 
     </div>
-     <a href="../post/blog-9/" ><svg className="ml-32  " width="0" height="0" viewBox="0 0 50 42" fill="none" style={{transform: "rotate(0deg);", transform: "rotate(6.21778deg)"}}><defs><linearGradient id="active-gradient-hmrs" x1="25" y1="42" x2="26.3796" y2="0.0453673" gradientUnits="userSpaceOnUse"><stop stop-color="hsl(353deg, 100%, 52%)"></stop><stop offset="1" stop-color="hsl(313deg, 100%, 52%)"></stop></linearGradient><linearGradient id="inactive-gradient-hmrs" x1="15" y1="41" x2="42" y2="-1.5" gradientUnits="userSpaceOnUse"><stop stop-color="#666" stop-opacity="0.4"></stop><stop offset="1" stop-color="#AAA" stop-opacity="0.4"></stop></linearGradient></defs><mask id="like-button-mask-hmrs" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="42"><path d="M13.2537 0.0255029C23.4033 0.0255029 25.0273 10.5191 25.0273 10.5191C25.0273 10.5191 26.6512 -0.60088 37.6129 0.0255029C44.3441 0.410148 48.7484 6.32169 48.9804 12.1981C49.7924 32.7656 28.7678 41.5 25.0273 41.5C21.2868 41.5 -0.549833 32.3459 1.07416 12.1981C1.54782 6.32169 6.29929 0.0255029 13.2537 0.0255029Z" fill="#000000"></path></mask><mask id="active-gradient-mask-hmrs" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="42"><polygon points="
+  
+  
+     <a href="../post/blog-9/" ><svg className="ml-32  invisible lg:visible" width="0" height="0" viewBox="0 0 50 42" fill="none" style={{transform: "rotate(0deg);", transform: "rotate(6.21778deg)"}}><defs><linearGradient id="active-gradient-hmrs" x1="25" y1="42" x2="26.3796" y2="0.0453673" gradientUnits="userSpaceOnUse"><stop stop-color="hsl(353deg, 100%, 52%)"></stop><stop offset="1" stop-color="hsl(313deg, 100%, 52%)"></stop></linearGradient><linearGradient id="inactive-gradient-hmrs" x1="15" y1="41" x2="42" y2="-1.5" gradientUnits="userSpaceOnUse"><stop stop-color="#666" stop-opacity="0.4"></stop><stop offset="1" stop-color="#AAA" stop-opacity="0.4"></stop></linearGradient></defs><mask id="like-button-mask-hmrs" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="42"><path d="M13.2537 0.0255029C23.4033 0.0255029 25.0273 10.5191 25.0273 10.5191C25.0273 10.5191 26.6512 -0.60088 37.6129 0.0255029C44.3441 0.410148 48.7484 6.32169 48.9804 12.1981C49.7924 32.7656 28.7678 41.5 25.0273 41.5C21.2868 41.5 -0.549833 32.3459 1.07416 12.1981C1.54782 6.32169 6.29929 0.0255029 13.2537 0.0255029Z" fill="#000000"></path></mask><mask id="active-gradient-mask-hmrs" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="50" height="42"><polygon points="
      0,42
      50,42
      50,-0.011698533618279328
@@ -67,6 +69,8 @@ const Categories = () => {
  Q 25 33.6 30 30
 " stroke="#000000" stroke-opacity="0.4" stroke-linecap="round" style={{opacity: "1"}}></path></g><g><path d="M53.5 18.5L47 5C47 5 53.5 31.9722 24.5 36C-4.5 40.0278 1 1.5 1 1.5L-6.5 25L8.00002 44.5L15.5 52L39 49L53.5 18.5Z" fill="black" fill-opacity="0.1"></path><path d="M6.14471 8.44525C6.64924 7.12038 7.41962 5.99208 8.36394 5.15003C9.30652 4.30953 10.3901 3.78182 11.5089 3.58622" stroke="white" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path><path d="M31.7084 5.95975C32.7822 4.70067 34.1021 3.81419 35.484 3.37609" stroke="white" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path></g></g></svg>
 </a>
+
+
 </span>
   );
 };
